@@ -3,6 +3,11 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/GM_System?createDatabaseIfNotExist = true
-    username: root
-    password: 1234
+    url: jdbc:mysql://localhost:3306/GM_System?createDatabaseIfNotExist=true
+    username: /
+    password: /
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
